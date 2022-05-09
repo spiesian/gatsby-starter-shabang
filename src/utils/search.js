@@ -117,7 +117,7 @@ export function getValuesFromQuery(query) {
 
 export async function getSearchResults({
   query,
-  count = 24,
+  count = 50,
 }) {
   const filters = getValuesFromQuery(query)
 
